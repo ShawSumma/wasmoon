@@ -26,7 +26,8 @@ emcc \
         'setValue', \
         'lengthBytesUTF8', \
         'stringToUTF8', \
-        'stringToNewUTF8'
+        'stringToNewUTF8' \
+        'wasmMemory'
     ]" \
     -s INCOMING_MODULE_JS_API="[
         'locateFile', \
